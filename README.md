@@ -1,6 +1,6 @@
 # Domestic Violence Prediction
 
-##  Project Overview
+## Project Overview
 
 Domestic violence is a growing societal issue, and data-driven approaches can help in identifying key factors that contribute to it. This project aims to analyze domestic violence data to determine significant socio-economic and demographic indicators that may predict whether a woman is at risk. Using advanced machine learning techniques such as logistic regression, feature engineering, and data visualization, we derive insights that can aid in policy-making and prevention strategies.
 
@@ -8,11 +8,11 @@ The project follows a structured pipeline, from data preprocessing to model eval
 
 ---
 
-##  Dataset
+## Dataset
 
 The dataset comprises various factors such as education level, employment status, financial dependency, age, marital status, and prior experiences with violence. These features are a mix of categorical and numerical variables that require proper preprocessing before being used in a predictive model.
 
-###  Data Preprocessing Steps
+### Data Preprocessing Steps
 
 - **Handling Missing Data**: Imputation techniques applied where necessary.
 - **Encoding Categorical Variables**: Label Encoding and One-Hot Encoding used for non-numeric attributes.
@@ -21,7 +21,7 @@ The dataset comprises various factors such as education level, employment status
 
 ---
 
-##  How to Run the Analysis
+## How to Run the Analysis
 
 1. **Load the dataset** and inspect missing values.
 2. **Preprocess the data** by encoding categorical features and scaling numerical ones.
@@ -32,7 +32,7 @@ The dataset comprises various factors such as education level, employment status
 
 ---
 
-##  Machine Learning Approach
+## Machine Learning Approach
 
 ### Model Used: Logistic Regression
 
@@ -43,7 +43,7 @@ The dataset comprises various factors such as education level, employment status
   - Random Forest (for better performance but lower interpretability)
   - Support Vector Machine (for complex decision boundaries)
 
-###  Evaluation Metrics
+### Evaluation Metrics
 
 - **Accuracy**: Measures overall correctness of the model.
 - **Precision**: How many positive predictions were actually correct.
@@ -67,23 +67,42 @@ The analysis revealed that the most influential factors affecting domestic viole
 - **Education level**
 - **Marital status**
 
-###  Figures
+### Figures
 
 Below are some key visualizations from the analysis:
 
 1. **Distribution of Domestic Violence Cases by Socio-Economic Factors**  
    ![Data Distribution](Distribution.png)
-    ![Data Distribution](Distribution2.png)
+   ![Data Distribution](Distribution2.png)
 
 2. **Correlation Heatmap of Key Variables**  
-   ![Correlation Matrix](correlation_matrix.png) 
-
-
-
+   ![Correlation Matrix](correlation_matrix.png)
 
 ---
 
-##  Challenges & Future Improvements
+## Correlation between Education Level and Domestic Violence
+
+The table below shows the relationship between **education level** and the incidence of **domestic violence**, along with the breakdown of **violence cases** and the total number of individuals.
+
+| Education Level | Violence | Violence Count | Total | Percentage (%) |
+|-----------------|----------|----------------|-------|----------------|
+| 0               | 0        | 18             | 23    | 78.26          |
+| 0               | 1        | 5              | 23    | 21.74          |
+| 1               | 0        | 2              | 3     | 66.67          |
+| 1               | 1        | 1              | 3     | 33.33          |
+| 2               | 0        | 42             | 47    | 89.36          |
+| 2               | 1        | 5              | 47    | 10.64          |
+| 3               | 0        | 199            | 274   | 72.63          |
+| 3               | 1        | 75             | 274   | 27.37          |
+
+#### **Key Insights:**
+- **Higher Education Levels** are associated with **lower domestic violence rates**.
+- **Tertiary education** (Education Level 3) shows the **lowest percentage** of domestic violence (27.37%).
+- **Individuals with lower education levels** (0, 1, 2) report higher percentages of domestic violence, with the highest being 89.36% in secondary education (Level 2).
+
+---
+
+## Challenges & Future Improvements
 
 - **Data Imbalance:** More data collection is needed to reduce bias.
 - **Feature Engineering:** Exploring new variables that may improve prediction accuracy.
@@ -100,5 +119,3 @@ If you would like to improve this project, you are welcome to fork the repositor
 3. Enhance data visualizations for better insights.
 
 ---
-
-
