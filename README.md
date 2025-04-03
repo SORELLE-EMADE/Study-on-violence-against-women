@@ -72,7 +72,7 @@ The analysis revealed that the most influential factors affecting domestic viole
 Below are some key visualizations from the analysis:
 
 1. **Distribution of Domestic Violence Cases by Socio-Economic Factors**  
-   ![Data Distribution](figures/data_distribution.png) *(Replace with your actual image path, e.g., `figures/distribution.png`)*
+   ![Data Distribution](Distribution.png) *(Replace with your actual image path, e.g., `figures/distribution.png`)*
 
 2. **Correlation Heatmap of Key Variables**  
    ![Correlation Matrix](figures/correlation_matrix.png) *(Replace with your actual image path, e.g., `figures/correlation.png`)*
