@@ -56,10 +56,10 @@ The dataset comprises various factors such as education level, employment status
 
 The model's performance is summarized below:
 
-- **Accuracy:** X%
-- **Precision:** X%
-- **Recall:** X%
-- **F1-score:** X%
+- **Accuracy:** 70%
+- **Precision:** 74%
+- **Recall:** 100%
+- **F1-score:** 85%
 
 The analysis revealed that the most influential factors affecting domestic violence risk were:
 
