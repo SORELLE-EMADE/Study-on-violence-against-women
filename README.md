@@ -76,10 +76,8 @@ Below are some key visualizations from the analysis:
     ![Data Distribution](Distribution2.png)
 
 2. **Correlation Heatmap of Key Variables**  
-   ![Correlation Matrix](figures/correlation_matrix.png) 
+   ![Correlation Matrix](correlation_matrix.png) 
 
-3. **ROC Curve Showing Model Performance**  
-   ![ROC Curve](figures/roc_curve.png) 
 
 
 
