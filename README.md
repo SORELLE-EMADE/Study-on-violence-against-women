@@ -72,15 +72,16 @@ The analysis revealed that the most influential factors affecting domestic viole
 Below are some key visualizations from the analysis:
 
 1. **Distribution of Domestic Violence Cases by Socio-Economic Factors**  
-   ![Data Distribution](Distribution.png) *(Replace with your actual image path, e.g., `figures/distribution.png`)*
+   ![Data Distribution](Distribution.png)
+    ![Data Distribution](Distribution.png)
 
 2. **Correlation Heatmap of Key Variables**  
-   ![Correlation Matrix](figures/correlation_matrix.png) *(Replace with your actual image path, e.g., `figures/correlation.png`)*
+   ![Correlation Matrix](figures/correlation_matrix.png) 
 
 3. **ROC Curve Showing Model Performance**  
-   ![ROC Curve](figures/roc_curve.png) *(Replace with your actual image path, e.g., `figures/roc.png`)*
+   ![ROC Curve](figures/roc_curve.png) 
 
-*(Ensure that all images are placed inside a `figures/` folder in your repository and replace the file names accordingly.)*
+
 
 ---
 
